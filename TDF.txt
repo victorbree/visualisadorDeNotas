@@ -3,7 +3,7 @@ empresas do brasil, ele funciona basicamente todo via calculation views no banco
 monitor(fiori) de obrigações fiscais da empresa, o TDF consiste basicamente de algumas transações como a /tmf/pco,
 para as obrigações de pis/cofins, /tmf/efd para as obrigações de icms/ipi e algumas outras obrigações.
 
-2- Sim, possuo experiencia em manutenção de sistemas TDF, acredito que hoje seja a minha principal skill.
+2- Sim, possuo experiencia em manutenção de sistemas TDF, acredito que hoje seja a minha principal skill, basicamente atuo 90% do meu tempo fazendo manutenções.
 
 3- Para realizar costumizações de obrigações no TDF temos basicamente 2 modos, sendo eles via shadows ou via 
 configuração. Na modificação via shadow, temos varias possibilidas, porém para blocos limitados, pois existem
