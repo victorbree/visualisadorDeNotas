@@ -1,0 +1,11 @@
+1- Basicamente, para criar um serviço OData, é necesario utilizar a transação SEGW para criar um gateway,
+tanto as informações de data model, quanto associações o proprio serviço. basicamente, após a configuração e 
+geração do gateway, basta acessar a transação "/IWFND/MAINT_SERVICE", buscar o serviço na aba de adição de 
+serviços e adicionar ele para que ele começe a funcionar e possa ser utilizado. 
+
+2- o EDM é basicamente o nosso endpoint da aplicação, nele é configurado a estrutura dos dados e como serão 
+passados na comunicação entre servidor e aplicação. 
+
+3- podemos testar pela transação "/IWFND/GW_CLIENT", mas podemos testar fora do sap também pelo navegador se 
+tivermos o caminho correto até o servidor "HTTP://WWW.XPTO.COM/SAP/OPU/ODATA/SAP/NOMEDOSERVIÇO" ou podemos
+utilizar o postman também que funciona da mesma forma do navegador com opções que facilitam a vida. 
