@@ -1,0 +1,15 @@
+1- TDF é um dos sistemas da SAP que é vendido a parte e que tem como objetivo a entrega das obrigações fiscais das
+empresas do brasil, ele funciona basicamente todo via calculation views no banco hana e são entregues no 
+monitor(fiori) de obrigações fiscais da empresa, o TDF consiste basicamente de algumas transações como a /tmf/pco,
+para as obrigações de pis/cofins, /tmf/efd para as obrigações de icms/ipi e algumas outras obrigações.
+
+2- Sim, possuo experiencia em manutenção de sistemas TDF, acredito que hoje seja a minha principal skill.
+
+3- Para realizar costumizações de obrigações no TDF temos basicamente 2 modos, sendo eles via shadows ou via 
+configuração. Na modificação via shadow, temos varias possibilidas, porém para blocos limitados, pois existem
+3 tipos de "construção de obrigação", sendo elas completamente sap, completamente shadow ou CPL(basicamente a 
+união dos dois anteriores). Na modificação via configuração, é o caso que vejo que se aplica apenas como
+ultimo caso, visto que isso modifica integralmente a logica da obrigação, essa forma pode ser feita criando uma
+calculation view Z que faria o processo da view standard, porém com as regras de negocios especificas que o 
+cliente necessita, após criar, é necessario ir na spro e configurar para que o TDF entenda que será utilizado
+uma view diferente da standard.  
