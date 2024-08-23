@@ -1,0 +1,9 @@
+1- podemos criar uma outra CDS do tipo extend view, utilizando como base a CDS original adicionando os campos 
+que precisam ser inseridos.  
+
+2- por padrão, após a criação da calculation view, criamos uma external view para podermos consumir os dados da 
+calculation direto no abap, fazendo assim na cds e consumindo a external view na cds. 
+
+3- as CDS VIEWS expostas não tem a capacidade de fazer modificações no banco por padrão, para resolver esse 
+"problema", podemos utilizar o BOPF que faz com que possamos realizar a inserção, modificação e exclusão de 
+dados. 
