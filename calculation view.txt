@@ -1,0 +1,8 @@
+1- Basicamente, a utilização de clausulas where em calculations views pode causar perda de performance 
+se utilizada de maneira errada. o correto seria aplicar o where apenas em inner joins, pois os left e right
+podem ter inconsistencia na aplicação do where, assim causando perda de performance.
+
+2- por motivos de performance, quanto menos campos forem selecionados e exibidos, menos processo no sistema. 
+
+3- tem um botão de analise de performance no eclipse "run performance validations for this view" que é o que
+geralmente utilizo, porém existe uma ferramenta chamada planviz que nunca utilizei
