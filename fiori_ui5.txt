@@ -1,0 +1,11 @@
+1- SIM, fiz um importa notas via xml que le o arquivo XML da maquina do usuario e importa a nota para o SAP. 
+
+2- O versionamento do codigo FIORI é feito por git, podendo ser github, gitlab.... 
+
+3- A XML VIEW e a JS VIEW tem inicialmente a diferença de linguagem de escrita, visto que XML é uma linguagem 
+de marcação e JS é uma linguagem de programação, mas acredito que a principal diferença entre as duas seria a
+padronização de codigo, pois a XML view é o padrão ideal para o MVC, já a JS VIEW é feita via controller
+instanciando os objetos via JS.
+
+4- Como templates pré-definidos temos os seguintes: custom page, list report page, overview page, analytical list
+page, from entry object page e worklist page.    
